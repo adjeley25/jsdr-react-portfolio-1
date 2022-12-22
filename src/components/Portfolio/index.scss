@@ -1,0 +1,65 @@
+@import '../../Scss/Variables.scss';
+
+
+.portfolio-content{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+   img:hover {
+	transform: scale(1.15);
+}
+}
+.portfolio-item{
+    img{
+        width:200px ;
+    }
+    opacity: 0;
+    animation:fadeIn 1s 1.5s forwards;
+}
+
+.portfolio-content{
+    img{
+        width:200px;
+        padding: 5%;
+        margin-top:15%;
+        margin-left:0;
+       
+       
+    }
+   
+
+}
+
+.portfolio-content{
+    h3{
+        font-family: 'Helvetica Neue';
+        text-align: center;
+        font-size: 15px;
+    }
+    
+}
+.portfolio-content{
+button{
+     color: white;
+     background-color: black;
+     font-size: 15px;
+     width:70%;
+     margin-left: 20%;
+     margin-right: 30%;
+     padding:0% 0% 0% 0%;
+     animation: backInRight 1s forwards;
+     cursor: pointer;
+        font-weight:bold;
+        
+        &:hover{
+            background-color:pink;
+   
+    
+     span {
+        color: bisque;
+      }
+    
+
+}}
+}

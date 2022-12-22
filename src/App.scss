@@ -1,0 +1,67 @@
+@import 'loaders.css/src/animations/ball-scale.scss';
+@import 'animate.css';
+@import'./SCSS/Variables.scss';
+
+
+@font-face{
+    font-family: 'Helvetica Neue';
+    src: url('./assets/fonts/helveticaneue.woff2') format('woff2');
+}
+
+
+input, textarea{
+    font-family: 'helvetica Neue' , sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+.loader-hidden{
+    display:none
+}
+
+.loader-active{
+display: block;
+position:absolute;
+left:0;
+top:0;
+
+bottom:0px;
+right: 0px;
+margin: auto;
+
+width:50px;
+height:50px;
+
+
+display:flex;
+justify-content: center;
+align-items: center;
+
+animation: fadeOut 1s 1s;
+animation-fill-mode: forwards ;
+}
+
+h1{
+    font-size:5rem ;
+    line-height: 7.5rem;
+    color: white;
+    font-weight: 500;
+    padding-left: 38%;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+
+h2{
+    font-size:5rem ;
+    line-height: 7.5rem;
+    color: white;
+    font-weight: 500;
+
+}
