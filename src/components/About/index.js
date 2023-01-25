@@ -4,6 +4,8 @@ import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faReact,faCss3, faSass, faJs,faNodeJs} from '@fortawesome/free-brands-svg-icons';
+
+
 const About = () => {
 
     return (
@@ -11,17 +13,30 @@ const About = () => {
         <div>
     <h1> 
     <AnimatedLetters strArray={"About Me".split('')} starIdx={1}/></h1>
-    <div className='about'>
+    
+    
+    <div className='about'> <div className='line'></div>
     <p class="text-center">I'm a front-end developer focused on creating clean, responsive web designs. 
-    I'm currently enrolled on Javascript development programe with General Assembly, I also have a higher Degree Cerificate in Software Engenieering from University of Northampton. 
-    a have degree in Business Administartion and  Diploma in Health Science. I am able to work with HTML5,CSS3,SASS,JAVASCRIPT,REACT, AND NODEJS</p>
+     based in MIlton Keynes, United Kingdom. <br/>
+     I enjoy helping others solve thier technical problems, i also try to educate my self with new software and programing languages.
+     <br/>
+     </p>
     
-    
-    
-    <Loader type="ball-scale" color='#fc4cd3' width={500} />
-  
-         
-         <div class='icons'>
+     <h1> 
+    <AnimatedLetters strArray={"Designing".split('')} starIdx={1}/></h1>
+  <div className='line'></div>
+    <p class="text-center">I am able to work with Adobe products like Lightroom, Adobe Spark and still learing how to use Adobe Photoshop. I do this as a hobby to help my friends out when they need it.
+    <br/>
+     </p>
+   
+     <h1> 
+     <AnimatedLetters strArray={"Languages".split('')} starIdx={1}/></h1>
+     <div className='line'></div>
+
+     <p class="text-center"> HTML5, CSS3, JAVASCRIPT, REACT, NPM, SASS, NPM, SQL.
+     <br/>
+     </p>
+ <div class='icons'>
                 <ul>
                 <li>
                <a>
@@ -44,11 +59,6 @@ const About = () => {
                <FontAwesomeIcon icon={faReact} color="#ab0524" />
                </a>
             </li>
-            <li>
-               <a>
-               <FontAwesomeIcon icon={faNodeJs} color="#ab0524" />
-               </a>
-            </li>
 
             <li>
                <a>
@@ -57,6 +67,14 @@ const About = () => {
             </li>
               </ul> 
               </div>
+   
+      
+    
+    
+    <Loader type="ball-scale" color='#fc4cd3' width={500} />
+  
+         
+        
 
               <div className="main-img">
    </div> 

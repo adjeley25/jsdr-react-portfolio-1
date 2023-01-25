@@ -1,7 +1,6 @@
 {
-  "name": "jsdr-react-portfolio-1",
+  "name": "jsdr-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://adjeley25.github.io/jsdr-react-portfolio-1",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.2.1",

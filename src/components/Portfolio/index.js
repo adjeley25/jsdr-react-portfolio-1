@@ -25,10 +25,11 @@ const getPortfolio = async()=> {
  
     const renderPortfolio= ( portfolio)=> {
         return(
+            
    <div className="portfolio-content">
     {
 portfolio.map( (port,idx) => {
-return( <div className="portfolio-item" key={`port-${idx}`} style={{animationDelay: `${idx* .05}s`}}>
+return( <div className="portfolio-item" key={`port-${idx}`} style={{animationDelay: `${idx* .20}s`}}>
             <img src={port.imageURL} alt={port.itemName}  />     
             <h3>{port.itemName}</h3> 
             <p>{port.itemDescription}</p>
@@ -48,7 +49,7 @@ return( <div className="portfolio-item" key={`port-${idx}`} style={{animationDel
 
     return (
         <div>
-   <h1><AnimatedLetters strArray={"My Portfolio".split('')} starIdx={1}/></h1>
+   <h1><AnimatedLetters strArray={"PORTFOLIO".split('')} starIdx={1}/></h1>
             { renderPortfolio (portfolio)}
 
     <Loader type="ball-scale" color='#fc4cd3' width={500} />

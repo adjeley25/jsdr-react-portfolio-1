@@ -3,9 +3,11 @@ import React from 'react';
 import NavLogo from  '../../assets/images/nav-logo.jpg';
 import {Link, NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser,faEnvelope, faImage,faSignIn } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser,faEnvelope, faImage,faSignIn, faToggleOn, faSliders, faHotdog } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faTwitter,faCodepen, faGithub} from '@fortawesome/free-brands-svg-icons';
- const Sidebar =() => {
+ 
+
+const Sidebar =() => {
     return ( 
        <div className='nav-bar'>
             <Link className="logo"to="/">

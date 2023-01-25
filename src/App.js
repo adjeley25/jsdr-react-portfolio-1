@@ -11,6 +11,7 @@ import Dashboard from './components/Dashboard';
 
 
 
+
 function App() {
   return (
     <Routes>
@@ -20,8 +21,19 @@ function App() {
       <Route path='/portfolio' element ={<Portfolio />}/>
       <Route path='/contact' element ={<Contact/>}/>
       <Route path='/dashboard' element ={<Dashboard/>}/>
+      
     </Route>
     </Routes>
+
+
+    
   );
 }
+
+
+
+
+
+
+
 export default App;
